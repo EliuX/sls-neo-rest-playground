@@ -1,0 +1,16 @@
+{
+  "name": "sls-neo-rest-playground",
+  "version": "1.0.0",
+  "description": "Example project to try out alternative to the People API, using serverless, Neo4J and REST",
+  "main": "handler.js",
+  "dependencies": {
+    "neo4j-driver": "^1.7.6",
+    "serverless-dotenv-plugin": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@api-team",
+  "license": "ISC"
+}
